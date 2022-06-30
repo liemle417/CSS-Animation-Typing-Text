@@ -1,2 +1,0 @@
-# Star SVG Animation - Exercise
- 
