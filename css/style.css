@@ -3,9 +3,18 @@
   padding: 0;  
 }
 
+body{
+  background: black;
+}
+
 .container{
-  width: 100%;
+  box-sizing: border-box;
+  border-radius: 100px;
+  width: 280px;
   height: 100vh;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 10px;
   background: rgb(245, 240, 217);
 
   display: flex;
@@ -25,10 +34,10 @@
 h1{
   border-top: 1px solid red;
   border-bottom: 1px solid red;
-  font-size: 6em;
-  padding: 20px;
+  font-size: 30px;
+  padding: 10px;
   margin: 0 auto;
-  letter-spacing: 8px;
+  letter-spacing: 4px;
   width: max-content;
 }
 
@@ -63,7 +72,7 @@ h1::after{
   justify-content: space-around;
   align-self:auto;
   position: absolute;
-  top: 70%;
+  top: 62%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -71,13 +80,13 @@ h1::after{
 .btn-left, .btn-right{
   background-color: black;
   color: #fff;
-  width: 180px;
-  padding: 12px;
-  font-size: 18px;
+  width: 80px;
+  padding: 8px;
+  font-size: 10px;
   border: 0;
   outline: 0;
-  margin: 1.5rem;
-  border-radius: 30px;
+  margin: 15px;
+  border-radius: 15px;
 }
 
 @keyframes typing{
@@ -92,20 +101,15 @@ h1::after{
   }  
 }
 
-@media (max-width: 576px){
+/*@media (max-width: 576px){
   .container{
     max-width: 576px;
   }
 
   h1{
-    font-size: 20px;
-    padding: 10px;
-    letter-spacing: 4px;
-  }
-
-  .btn-group{
-    top: 70%;
-    left: 50%;
+    font-size: 60px;
+    padding: 12px;
+    letter-spacing: 6px;
   }
 
   .btn-left, .btn-right{
@@ -113,34 +117,7 @@ h1::after{
     width: 60px;
     padding: 6px;
     font-size: 8px;
-    margin: 1.5rem;
     border-radius: 15px;
   }
 }
-
-@media (max-width: 768px){
-  .container{
-    width: 320px;
-  }
-
-  h1{
-    font-size: 20px;
-    padding: 10px;
-    letter-spacing: 4px;
-  }
-
-  .btn-group{
-    position: absolute;
-    top: 60%;
-    left: 50%;
-  }
-  
-  .btn-left, .btn-right{
-    color: #fff;
-    width: 60px;
-    padding: 6px;
-    font-size: 8px;
-    margin: 0.5rem;
-    border-radius: 15px;
-  }
-}
+*/
