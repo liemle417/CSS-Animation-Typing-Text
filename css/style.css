@@ -10,7 +10,7 @@ body{
 .container{
   box-sizing: border-box;
   border-radius: 100px;
-  width: 280px;
+  width: 100vw;
   height: 100vh;
   border: 1px solid black;
   margin: 20px;
