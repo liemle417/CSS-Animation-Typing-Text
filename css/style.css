@@ -74,13 +74,13 @@ h1::after{
 }
 
 .btn-left, .btn-right{
-  background-color: black;
-  color: #fff;
+  background-color: transparent;
+  color: black;
   width: 10rem;
   padding: 35px;
   font-size: 15px;
-  border: 0;
-  outline: 0;
+  border: 1px solid black;
+  box-shadow: 5px 5px 8px 2px black;
   margin: 25px;
   border-radius: 15px;
 }
